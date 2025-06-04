@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roblox Launcher</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin-top: 20px;
+      cursor: pointer;
+      background-color: #00b300;
+      border: none;
+      border-radius: 5px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="message">Ready to play Roblox?</h1>
+  <button onclick="prank()">Ready</button>
+
+  <script>
+    function prank() {
+      document.getElementById("message").innerText = "LOL, you got pranked!";
+    }
+  </script>
+</body>
+</html>
